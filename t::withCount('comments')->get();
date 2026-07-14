@@ -1,0 +1,95 @@
+[90m= [39m[34;4mIlluminate\Database\Eloquent\Collection[39;24m {#7279
+    [34mall[39m: [
+      [34;4mApp\Models\Post[39;24m {#8016
+        [34mid[39m: [35m1[39m,
+        [34mtitle[39m: [32m"[39m[32mLaravelのリレーション入門[39m[32m"[39m,
+        [34mcontent[39m: [32m"[39m[32mLaravelのEloquentリレーションについて解説します。[39m[32m"[39m,
+        [34mcreated_at[39m: [32m"[39m[32m2026-07-14 00:57:13[39m[32m"[39m,
+        [34mupdated_at[39m: [32m"[39m[32m2026-07-14 00:57:13[39m[32m"[39m,
+        [34mcomments[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#8146
+          [34mall[39m: [
+            [34;4mApp\Models\Comment[39;24m {#8128
+              [34mid[39m: [35m1[39m,
+              [34mpost_id[39m: [35m1[39m,
+              [34mbody[39m: [32m"[39m[32mとても分かりやすい記事でした！[39m[32m"[39m,
+              [34mcreated_at[39m: [32m"[39m[32m2026-07-14 00:57:39[39m[32m"[39m,
+              [34mupdated_at[39m: [32m"[39m[32m2026-07-14 00:57:39[39m[32m"[39m,
+            },
+            [34;4mApp\Models\Comment[39;24m {#8127
+              [34mid[39m: [35m2[39m,
+              [34mpost_id[39m: [35m1[39m,
+              [34mbody[39m: [32m"[39m[32mリレーションの理解が深まりました。[39m[32m"[39m,
+              [34mcreated_at[39m: [32m"[39m[32m2026-07-14 00:57:46[39m[32m"[39m,
+              [34mupdated_at[39m: [32m"[39m[32m2026-07-14 00:57:46[39m[32m"[39m,
+            },
+          ],
+        },
+        [34mtags[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#7283
+          [34mall[39m: [
+            [34;4mApp\Models\Tag[39;24m {#8140
+              [34mid[39m: [35m1[39m,
+              [34mname[39m: [32m"[39m[32mLaravel[39m[32m"[39m,
+              [34mcreated_at[39m: [32m"[39m[32m2026-07-14 00:56:58[39m[32m"[39m,
+              [34mupdated_at[39m: [32m"[39m[32m2026-07-14 00:56:58[39m[32m"[39m,
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#7320
+                [34mpost_id[39m: [35m1[39m,
+                [34mtag_id[39m: [35m1[39m,
+              },
+            },
+            [34;4mApp\Models\Tag[39;24m {#7285
+              [34mid[39m: [35m3[39m,
+              [34mname[39m: [32m"[39m[32mチュートリアル[39m[32m"[39m,
+              [34mcreated_at[39m: [32m"[39m[32m2026-07-14 00:57:07[39m[32m"[39m,
+              [34mupdated_at[39m: [32m"[39m[32m2026-07-14 00:57:07[39m[32m"[39m,
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#7252
+                [34mpost_id[39m: [35m1[39m,
+                [34mtag_id[39m: [35m3[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Post[39;24m {#7250
+        [34mid[39m: [35m2[39m,
+        [34mtitle[39m: [32m"[39m[32mPHPの基礎[39m[32m"[39m,
+        [34mcontent[39m: [32m"[39m[32mPHPの基本的な文法を学びましょう。[39m[32m"[39m,
+        [34mcreated_at[39m: [32m"[39m[32m2026-07-14 00:57:19[39m[32m"[39m,
+        [34mupdated_at[39m: [32m"[39m[32m2026-07-14 00:57:19[39m[32m"[39m,
+        [34mcomments[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#7289
+          [34mall[39m: [
+            [34;4mApp\Models\Comment[39;24m {#8143
+              [34mid[39m: [35m3[39m,
+              [34mpost_id[39m: [35m2[39m,
+              [34mbody[39m: [32m"[39m[32mPHP初心者にも優しい内容ですね。[39m[32m"[39m,
+              [34mcreated_at[39m: [32m"[39m[32m2026-07-14 00:57:55[39m[32m"[39m,
+              [34mupdated_at[39m: [32m"[39m[32m2026-07-14 00:57:55[39m[32m"[39m,
+            },
+          ],
+        },
+        [34mtags[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#7304
+          [34mall[39m: [
+            [34;4mApp\Models\Tag[39;24m {#8137
+              [34mid[39m: [35m2[39m,
+              [34mname[39m: [32m"[39m[32mPHP[39m[32m"[39m,
+              [34mcreated_at[39m: [32m"[39m[32m2026-07-14 00:57:03[39m[32m"[39m,
+              [34mupdated_at[39m: [32m"[39m[32m2026-07-14 00:57:03[39m[32m"[39m,
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#7310
+                [34mpost_id[39m: [35m2[39m,
+                [34mtag_id[39m: [35m2[39m,
+              },
+            },
+            [34;4mApp\Models\Tag[39;24m {#8188
+              [34mid[39m: [35m3[39m,
+              [34mname[39m: [32m"[39m[32mチュートリアル[39m[32m"[39m,
+              [34mcreated_at[39m: [32m"[39m[32m2026-07-14 00:57:07[39m[32m"[39m,
+              [34mupdated_at[39m: [32m"[39m[32m2026-07-14 00:57:07[39m[32m"[39m,
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#7294
+                [34mpost_id[39m: [35m2[39m,
+                [34mtag_id[39m: [35m3[39m,
+              },
+            },
+          ],
+        },
+      },
+    ],
+  }
